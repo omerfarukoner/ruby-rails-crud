@@ -1,2 +1,1 @@
-web: bin/rails server -p ${PORT:-5000} -e $RAILS_ENV
-worker: bundle exec sidekiq
+web: bundle exec puma -C config/puma.rb
