@@ -19,8 +19,8 @@ test:
   database: myapp_test
 
 
-production:
+  production:
   <<: *default
-  database: myapp_production
-  username: myapp
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  url: mysql2://bae5c45e471146:0b37ff63@us-cdbr-east-06.cleardb.net/heroku_8df85e809f1ba3f?reconnect=true
+
+
