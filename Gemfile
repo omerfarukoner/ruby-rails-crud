@@ -7,7 +7,7 @@ end
 
 ruby '3.1.0'
 
-gem 'mysql2', '~> 0.4.4'
+gem 'mysql2'
 
 
 #Bootstrap
@@ -27,7 +27,7 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem "pg"
