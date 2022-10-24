@@ -5,9 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.4.2'
+ruby '3.1.0'
 
 gem 'mysql2', '~> 0.4.4'
+
 
 #Bootstrap
 gem 'twitter-bootstrap-rails'
@@ -33,7 +34,7 @@ group :production do
   gem 'rails_12factor'
 end
 group :development do
-  gem 'sqlite3', '~> 1.3.6'
+  gem 'sqlite3'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
